@@ -1,0 +1,121 @@
+{
+  "intents": [
+    {
+      "id": "greeting",
+      "name": "Greeting",
+      "description": "User greets the chatbot with phrases like Hi, Hello, Hey, Good morning",
+      "isResumeData": false
+    },
+    {
+      "id": "introduction",
+      "name": "Introduction",
+      "description": "User introduces themselves (e.g. Hi, my name is Sahil)",
+      "isResumeData": true
+    },
+    {
+      "id": "provide_name",
+      "name": "Provide Name",
+      "description": "User provides their personal full name",
+      "targetField": "personal.fullName",
+      "isResumeData": true
+    },
+    {
+      "id": "provide_occupation",
+      "name": "Provide Occupation",
+      "description": "User provides their job title, profession, or work department",
+      "targetField": "personal.professionalTitle",
+      "isResumeData": true
+    },
+    {
+      "id": "provide_email",
+      "name": "Provide Email",
+      "description": "User provides an email address",
+      "targetField": "personal.email",
+      "isResumeData": true
+    },
+    {
+      "id": "provide_phone",
+      "name": "Provide Phone",
+      "description": "User provides a contact phone number",
+      "targetField": "personal.phone",
+      "isResumeData": true
+    },
+    {
+      "id": "provide_location",
+      "name": "Provide Location",
+      "description": "User provides current city, state or country",
+      "targetField": "personal.location",
+      "isResumeData": true
+    },
+    {
+      "id": "provide_education",
+      "name": "Provide Education",
+      "description": "User provides degree, university, graduation year or grades",
+      "targetField": "education",
+      "isResumeData": true
+    },
+    {
+      "id": "provide_experience",
+      "name": "Provide Experience",
+      "description": "User provides job role, company, years, or declares fresher status",
+      "targetField": "experience",
+      "isResumeData": true
+    },
+    {
+      "id": "provide_skills",
+      "name": "Provide Skills",
+      "description": "User lists their technical or professional skills",
+      "targetField": "skills",
+      "isResumeData": true
+    },
+    {
+      "id": "provide_summary",
+      "name": "Provide Summary",
+      "description": "User provides their professional summary paragraph",
+      "targetField": "career.summary",
+      "isResumeData": true
+    },
+    {
+      "id": "request_help",
+      "name": "Request Help / Guidance",
+      "description": "User is uncertain what to write or asks for examples/guidance",
+      "isResumeData": false
+    },
+    {
+      "id": "skip_question",
+      "name": "Skip Question",
+      "description": "User requests to skip the current question",
+      "isResumeData": false
+    },
+    {
+      "id": "edit_previous_answer",
+      "name": "Edit / Correction",
+      "description": "User corrects a previously submitted value (e.g. Actually my name is Rahul, not Sahil)",
+      "isResumeData": true
+    },
+    {
+      "id": "confirmation",
+      "name": "Confirmation",
+      "description": "User agrees or confirms (e.g. Yes, exactly, correct, sure)",
+      "isResumeData": false
+    },
+    {
+      "id": "rejection",
+      "name": "Rejection",
+      "description": "User disagrees or declines (e.g. No, nope, don't add that)",
+      "isResumeData": false
+    },
+    {
+      "id": "clarification_needed",
+      "name": "Clarification Needed",
+      "description": "Input is vague (e.g. 'I am just a normal employee')",
+      "isResumeData": false
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "description": "Input does not match a clear pattern",
+      "isResumeData": false
+    }
+  ]
+}

@@ -1,0 +1,603 @@
+{
+  "questions": [
+    {
+      "id": "full_name",
+      "section": "personal",
+      "question": "Welcome! Let's start with your full name. What should appear at the top of your resume?",
+      "type": "text",
+      "placeholder": "e.g., Sarah Jenkins or Alex Morgan",
+      "required": true,
+      "skipAllowed": false,
+      "field": "personal.fullName",
+      "validationRule": "fullName",
+      "tip": "Use your official name as you want recruiters and background checkers to see it."
+    },
+    {
+      "id": "professional_title",
+      "section": "personal",
+      "question": "What is your current job, profession or occupation? You can describe it in your own words.",
+      "type": "text_with_suggestions",
+      "suggestions": [
+        "Student",
+        "Fresher",
+        "Software Developer",
+        "Teacher",
+        "Accountant",
+        "Sales Executive",
+        "Office Assistant",
+        "Warehouse Worker",
+        "Stock Department Worker",
+        "Business Owner",
+        "Other"
+      ],
+      "placeholder": "e.g., Stock Department Worker, Teacher, or Software Engineer",
+      "required": true,
+      "skipAllowed": false,
+      "field": "personal.professionalTitle",
+      "allowCustomAnswer": true,
+      "acceptedIntents": [
+        "provide_occupation"
+      ],
+      "tip": "Enter any profession or job title in your own words, or choose from suggestions."
+    },
+    {
+      "id": "email",
+      "section": "personal",
+      "question": "What is the best email address for recruiters to reach you?",
+      "type": "email",
+      "placeholder": "e.g., alex.dev@example.com",
+      "required": true,
+      "skipAllowed": false,
+      "field": "personal.email",
+      "validationRule": "email",
+      "tip": "Use a professional, clean email address."
+    },
+    {
+      "id": "phone",
+      "section": "personal",
+      "question": "What phone number should we include on your resume?",
+      "type": "tel",
+      "placeholder": "e.g., +1 (555) 234-5678",
+      "required": true,
+      "skipAllowed": false,
+      "field": "personal.phone",
+      "validationRule": "phone",
+      "tip": "Include country or area code for clarity."
+    },
+    {
+      "id": "location",
+      "section": "personal",
+      "question": "Where are you currently located?",
+      "type": "text",
+      "placeholder": "e.g., Austin, TX or Remote (US)",
+      "required": true,
+      "skipAllowed": false,
+      "field": "personal.location",
+      "suggestions": ["San Francisco, CA", "New York, NY", "Austin, TX", "London, UK", "Bengaluru, India", "Toronto, Canada", "Remote (Worldwide)"],
+      "tip": "City and State or Country is sufficient. Full street address is not needed."
+    },
+    {
+      "id": "linkedin",
+      "section": "personal",
+      "question": "Do you have a LinkedIn profile link? (Optional)",
+      "type": "url",
+      "placeholder": "e.g., linkedin.com/in/alexmorgan",
+      "required": false,
+      "skipAllowed": true,
+      "field": "personal.linkedin",
+      "validationRule": "url",
+      "tip": "Over 85% of tech recruiters view LinkedIn profiles before interviewing."
+    },
+    {
+      "id": "github",
+      "section": "personal",
+      "question": "Do you have a GitHub or code repository link? (Optional)",
+      "type": "url",
+      "placeholder": "e.g., github.com/alexmorgan",
+      "required": false,
+      "skipAllowed": true,
+      "field": "personal.github",
+      "validationRule": "url",
+      "tip": "Great for showcasing your open-source work and coding style."
+    },
+    {
+      "id": "portfolio",
+      "section": "personal",
+      "question": "Do you have a personal portfolio website or blog? (Optional)",
+      "type": "url",
+      "placeholder": "e.g., alexmorgan.tech",
+      "required": false,
+      "skipAllowed": true,
+      "field": "personal.portfolio",
+      "validationRule": "url",
+      "tip": "A custom domain or clean portfolio link leaves a memorable impression."
+    },
+    {
+      "id": "experience_level",
+      "section": "career",
+      "question": "Which best describes your current professional experience level?",
+      "type": "radio_cards",
+      "optionsKey": "experienceLevels",
+      "required": true,
+      "skipAllowed": false,
+      "field": "career.experienceLevel",
+      "tip": "This will customize the questions and recommend the best ATS layout for you."
+    },
+    {
+      "id": "summary",
+      "section": "career",
+      "question": "Let's craft your Professional Summary. You can pick an ATS-optimized template below or write your own:",
+      "type": "summary_generator",
+      "placeholder": "Write or customize your summary...",
+      "required": true,
+      "skipAllowed": false,
+      "field": "career.summary",
+      "validation": { "minLength": 20 },
+      "tip": "A 2-4 sentence pitch highlighting your key strengths and technical passions."
+    },
+    {
+      "id": "edu_degree",
+      "section": "education",
+      "question": "Let's add your education. What degree or diploma did you pursue?",
+      "type": "text_with_suggestions",
+      "suggestionsKey": "degrees",
+      "placeholder": "e.g., B.S. in Computer Science",
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "education",
+      "recordField": "degree",
+      "tip": "Include major or specialization if applicable."
+    },
+    {
+      "id": "edu_institution",
+      "section": "education",
+      "question": "Which college, school, or institution did you attend?",
+      "type": "text",
+      "placeholder": "e.g., Stanford University or MIT",
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "education",
+      "recordField": "institution",
+      "suggestions": ["UC Berkeley", "Stanford University", "MIT", "Georgia Tech", "UT Austin", "Carnegie Mellon", "University of Waterloo"],
+      "tip": "Official name of the university or institution."
+    },
+    {
+      "id": "edu_start_year",
+      "section": "education",
+      "question": "What year did you start your studies?",
+      "type": "number",
+      "placeholder": "e.g., 2020",
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "education",
+      "recordField": "startYear",
+      "validationRule": "year"
+    },
+    {
+      "id": "edu_status",
+      "section": "education",
+      "question": "Are you currently studying here, or have you graduated?",
+      "type": "radio_cards",
+      "options": [
+        { "value": "graduated", "label": "Graduated / Completed", "desc": "I have completed this degree" },
+        { "value": "current", "label": "Currently Studying", "desc": "I am currently enrolled here" }
+      ],
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "education",
+      "recordField": "status"
+    },
+    {
+      "id": "edu_end_year",
+      "section": "education",
+      "question": "What is your graduation year (or expected graduation year)?",
+      "type": "number",
+      "placeholder": "e.g., 2024",
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "education",
+      "recordField": "endYear",
+      "validationRule": "year"
+    },
+    {
+      "id": "edu_grade",
+      "section": "education",
+      "question": "What was your GPA or percentage? (Optional)",
+      "type": "text",
+      "placeholder": "e.g., 3.8 / 4.0 or 88%",
+      "required": false,
+      "skipAllowed": true,
+      "recordSection": "education",
+      "recordField": "grade",
+      "validationRule": "percentageOrGpa",
+      "tip": "Recommended if 3.5+ GPA or top 10% of class. Otherwise safe to skip."
+    },
+    {
+      "id": "edu_repeat_ask",
+      "section": "education",
+      "question": "Education record saved! Do you want to add another degree or educational qualification?",
+      "type": "boolean_choice",
+      "options": [
+        { "value": "yes", "label": "+ Add Another Degree" },
+        { "value": "no", "label": "Done with Education" }
+      ],
+      "required": true,
+      "skipAllowed": false
+    },
+    {
+      "id": "exp_check",
+      "section": "experience",
+      "question": "Would you like to add work experience or internships to your resume?",
+      "type": "boolean_choice",
+      "options": [
+        { "value": "yes", "label": "Yes, Add Work Experience" },
+        { "value": "no", "label": "Skip Work Experience" }
+      ],
+      "required": true,
+      "skipAllowed": false,
+      "tip": "For freshers, academic projects and internships can serve as great experience."
+    },
+    {
+      "id": "exp_title",
+      "section": "experience",
+      "question": "What was your job title / role?",
+      "type": "text_with_suggestions",
+      "suggestionsKey": "titles",
+      "placeholder": "e.g., Software Engineering Intern",
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "experience",
+      "recordField": "jobTitle"
+    },
+    {
+      "id": "exp_company",
+      "section": "experience",
+      "question": "What is the company or organization name?",
+      "type": "text",
+      "placeholder": "e.g., Google, Stripe, or Stealth Startup",
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "experience",
+      "recordField": "company"
+    },
+    {
+      "id": "exp_type",
+      "section": "experience",
+      "question": "What type of employment was this?",
+      "type": "select",
+      "optionsKey": "employmentTypes",
+      "placeholder": "Select employment type",
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "experience",
+      "recordField": "employmentType"
+    },
+    {
+      "id": "exp_location",
+      "section": "experience",
+      "question": "Where was this job located?",
+      "type": "text",
+      "placeholder": "e.g., New York, NY (Hybrid) or Remote",
+      "required": false,
+      "skipAllowed": true,
+      "recordSection": "experience",
+      "recordField": "location"
+    },
+    {
+      "id": "exp_current",
+      "section": "experience",
+      "question": "Are you currently working in this role?",
+      "type": "boolean_choice",
+      "options": [
+        { "value": "yes", "label": "Yes, Currently Working Here" },
+        { "value": "no", "label": "No, Past Position" }
+      ],
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "experience",
+      "recordField": "currentlyWorking"
+    },
+    {
+      "id": "exp_start_date",
+      "section": "experience",
+      "question": "When did you start this position?",
+      "type": "month_year",
+      "placeholder": "e.g., 2022-04 or Apr 2022",
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "experience",
+      "recordField": "startDate"
+    },
+    {
+      "id": "exp_end_date",
+      "section": "experience",
+      "question": "When did you complete this position?",
+      "type": "month_year",
+      "placeholder": "e.g., 2024-01 or Jan 2024",
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "experience",
+      "recordField": "endDate"
+    },
+    {
+      "id": "exp_responsibilities",
+      "section": "experience",
+      "question": "What were your core responsibilities and achievements? (Click suggestions below to quickly populate)",
+      "type": "textarea_with_suggestions",
+      "suggestionsKey": "responsibilitiesSuggestions",
+      "placeholder": "Describe what you built, improved, or delivered. Use action verbs and numbers where possible...",
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "experience",
+      "recordField": "responsibilities",
+      "validation": { "minLength": 15 },
+      "tip": "Tip: Start bullets with action verbs (Architected, Spearheaded, Reduced, Delivered)."
+    },
+    {
+      "id": "exp_repeat_ask",
+      "section": "experience",
+      "question": "Experience record saved! Would you like to add another work experience?",
+      "type": "boolean_choice",
+      "options": [
+        { "value": "yes", "label": "+ Add Another Work Experience" },
+        { "value": "no", "label": "Continue to Skills" }
+      ],
+      "required": true,
+      "skipAllowed": false
+    },
+    {
+      "id": "skills_selection",
+      "section": "skills",
+      "question": "Select your technical skills across categories, or type your own custom skills below:",
+      "type": "skill_selector",
+      "required": true,
+      "skipAllowed": false,
+      "field": "skills",
+      "tip": "Select at least 5-10 core skills matching your target job descriptions."
+    },
+    {
+      "id": "proj_check",
+      "section": "projects",
+      "question": "Would you like to highlight notable projects, open source work, or apps you've built?",
+      "type": "boolean_choice",
+      "options": [
+        { "value": "yes", "label": "Yes, Add a Project" },
+        { "value": "no", "label": "Skip Projects Section" }
+      ],
+      "required": true,
+      "skipAllowed": false,
+      "tip": "Projects are the #1 way for freshers & self-taught devs to demonstrate real competence."
+    },
+    {
+      "id": "proj_name",
+      "section": "projects",
+      "question": "What is the project title?",
+      "type": "text",
+      "placeholder": "e.g., E-Commerce Microservices or AI Code Assistant",
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "projects",
+      "recordField": "name"
+    },
+    {
+      "id": "proj_desc",
+      "section": "projects",
+      "question": "Briefly describe what this project does and the problem it solves:",
+      "type": "textarea",
+      "placeholder": "e.g., A full-stack web application that allows users to track expenses and get automated budget insights.",
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "projects",
+      "recordField": "description",
+      "validation": { "minLength": 10 }
+    },
+    {
+      "id": "proj_tech",
+      "section": "projects",
+      "question": "What technologies, libraries, or databases were used?",
+      "type": "text",
+      "placeholder": "e.g., React, TypeScript, Node.js, PostgreSQL, Docker",
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "projects",
+      "recordField": "technologies"
+    },
+    {
+      "id": "proj_url",
+      "section": "projects",
+      "question": "What is the repository URL or live demo link? (Optional)",
+      "type": "url",
+      "placeholder": "e.g., github.com/username/project or mydemo.app",
+      "required": false,
+      "skipAllowed": true,
+      "recordSection": "projects",
+      "recordField": "url",
+      "validationRule": "url"
+    },
+    {
+      "id": "proj_contributions",
+      "section": "projects",
+      "question": "What were your key contributions or notable technical achievements?",
+      "type": "textarea_with_suggestions",
+      "suggestionsKey": "projectContributions",
+      "placeholder": "e.g., Integrated JWT authentication and reduced page load times by 40% with memoization...",
+      "required": false,
+      "skipAllowed": true,
+      "recordSection": "projects",
+      "recordField": "contributions"
+    },
+    {
+      "id": "proj_repeat_ask",
+      "section": "projects",
+      "question": "Project saved! Do you want to add another project?",
+      "type": "boolean_choice",
+      "options": [
+        { "value": "yes", "label": "+ Add Another Project" },
+        { "value": "no", "label": "Continue to Certifications" }
+      ],
+      "required": true,
+      "skipAllowed": false
+    },
+    {
+      "id": "cert_check",
+      "section": "certifications",
+      "question": "Do you hold any professional certifications, licenses, or course badges to include? (Optional)",
+      "type": "boolean_choice",
+      "options": [
+        { "value": "yes", "label": "Yes, Add a Certification" },
+        { "value": "no", "label": "Skip Certifications" }
+      ],
+      "required": true,
+      "skipAllowed": false
+    },
+    {
+      "id": "cert_name",
+      "section": "certifications",
+      "question": "What is the certificate or credential name?",
+      "type": "text",
+      "placeholder": "e.g., AWS Certified Solutions Architect or Meta Frontend Developer",
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "certifications",
+      "recordField": "name"
+    },
+    {
+      "id": "cert_org",
+      "section": "certifications",
+      "question": "Which organization or authority issued this credential?",
+      "type": "text",
+      "placeholder": "e.g., Amazon Web Services (AWS), Google Cloud, Coursera",
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "certifications",
+      "recordField": "organization"
+    },
+    {
+      "id": "cert_date",
+      "section": "certifications",
+      "question": "When was it issued?",
+      "type": "month_year",
+      "placeholder": "e.g., 2023-08 or Aug 2023",
+      "required": false,
+      "skipAllowed": true,
+      "recordSection": "certifications",
+      "recordField": "issueDate"
+    },
+    {
+      "id": "cert_url",
+      "section": "certifications",
+      "question": "Do you have a verification URL or badge link? (Optional)",
+      "type": "url",
+      "placeholder": "e.g., credly.com/badges/...",
+      "required": false,
+      "skipAllowed": true,
+      "recordSection": "certifications",
+      "recordField": "url",
+      "validationRule": "url"
+    },
+    {
+      "id": "cert_repeat_ask",
+      "section": "certifications",
+      "question": "Certification saved! Would you like to add another certification?",
+      "type": "boolean_choice",
+      "options": [
+        { "value": "yes", "label": "+ Add Another Certificate" },
+        { "value": "no", "label": "Continue to Achievements" }
+      ],
+      "required": true,
+      "skipAllowed": false
+    },
+    {
+      "id": "achieve_check",
+      "section": "achievements",
+      "question": "Would you like to include awards, competition placements, or key achievements? (Optional)",
+      "type": "boolean_choice",
+      "options": [
+        { "value": "yes", "label": "Yes, Add an Achievement" },
+        { "value": "no", "label": "Skip Achievements" }
+      ],
+      "required": true,
+      "skipAllowed": false
+    },
+    {
+      "id": "achieve_title",
+      "section": "achievements",
+      "question": "What was the achievement or honor title?",
+      "type": "text",
+      "placeholder": "e.g., 1st Place - National University Hackathon 2023",
+      "required": true,
+      "skipAllowed": false,
+      "recordSection": "achievements",
+      "recordField": "title"
+    },
+    {
+      "id": "achieve_desc",
+      "section": "achievements",
+      "question": "Briefly describe the context or impact:",
+      "type": "textarea",
+      "placeholder": "e.g., Awarded out of 120+ teams for creating an accessible audio navigation system.",
+      "required": false,
+      "skipAllowed": true,
+      "recordSection": "achievements",
+      "recordField": "description"
+    },
+    {
+      "id": "achieve_year",
+      "section": "achievements",
+      "question": "What year was this achieved?",
+      "type": "number",
+      "placeholder": "e.g., 2023",
+      "required": false,
+      "skipAllowed": true,
+      "recordSection": "achievements",
+      "recordField": "year",
+      "validationRule": "year"
+    },
+    {
+      "id": "achieve_repeat_ask",
+      "section": "achievements",
+      "question": "Achievement saved! Would you like to add another achievement?",
+      "type": "boolean_choice",
+      "options": [
+        { "value": "yes", "label": "+ Add Another Achievement" },
+        { "value": "no", "label": "Continue to Additional Info" }
+      ],
+      "required": true,
+      "skipAllowed": false
+    },
+    {
+      "id": "languages_input",
+      "section": "additional",
+      "question": "What languages do you speak or write? (Click to pick or add custom)",
+      "type": "multi_tag_selector",
+      "suggestionsKey": "languagesList",
+      "placeholder": "e.g., English (Fluent), Spanish (Conversational)",
+      "required": false,
+      "skipAllowed": true,
+      "field": "languages",
+      "tip": "Multilingual candidates often stand out in international and remote teams."
+    },
+    {
+      "id": "interests_input",
+      "section": "additional",
+      "question": "Any personal interests, hobbies, or passions to showcase your personality? (Optional)",
+      "type": "multi_tag_selector",
+      "suggestionsKey": "interestsList",
+      "placeholder": "e.g., Open Source, Robotics, Marathon Running",
+      "required": false,
+      "skipAllowed": true,
+      "field": "interests",
+      "tip": "Helpful icebreakers in interview conversations."
+    },
+    {
+      "id": "review_complete",
+      "section": "review",
+      "question": "🎉 Incredible job! All sections are complete. Which ATS-friendly template would you like to use for your resume?",
+      "type": "template_selector",
+      "field": "template",
+      "required": true,
+      "skipAllowed": false,
+      "tip": "You can preview and change templates anytime with live rendering."
+    }
+  ]
+}

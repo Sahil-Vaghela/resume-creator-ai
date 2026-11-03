@@ -1,0 +1,36 @@
+{
+  "appName": "ResumeCraft",
+  "tagline": "Build Your Professional Resume",
+  "subtitle": "An intelligent, step-by-step interactive resume builder that crafts ATS-optimized resumes in minutes.",
+  "features": [
+    {
+      "icon": "Bot",
+      "title": "Conversational Guidance",
+      "description": "Guided one-question-at-a-time conversation tailored to your background and experience."
+    },
+    {
+      "icon": "Sparkles",
+      "title": "Smart JSON Architecture",
+      "description": "Pre-filled suggestions, curated skill libraries, and role-based summary generators."
+    },
+    {
+      "icon": "FileCheck",
+      "title": "6 ATS-Friendly Templates",
+      "description": "Industry-standard formats designed to pass Application Tracking Systems seamlessly."
+    },
+    {
+      "icon": "Eye",
+      "title": "Live Real-Time Preview",
+      "description": "Watch your resume update with every keystroke side-by-side with zoom & print support."
+    }
+  ],
+  "stats": [
+    { "value": "100%", "label": "Free & Client-Side" },
+    { "value": "6", "label": "Professional Layouts" },
+    { "value": "ATS", "label": "Optimized Formatting" },
+    { "value": "A4", "label": "PDF Ready" }
+  ],
+  "ctaPrimary": "Start Building Resume",
+  "ctaSecondary": "View Resume Templates",
+  "ctaSample": "Explore with Sample Data"
+}

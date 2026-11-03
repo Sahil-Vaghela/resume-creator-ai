@@ -1,0 +1,14 @@
+{
+  "greetingOnlyResponse": "Hello! Welcome to ResumeCraft. I'll help you build your professional resume. Let's start with your name. What should I call you?",
+  "greetingWithNameResponse": "Hello {fullName}! Wonderful to meet you. What is your current job, profession or occupation? You can describe it in your own words.",
+  "greetingWithNameAndOccupationResponse": "Hello {fullName}! Great to meet an {professionalTitle}. Let's get your contact details next.",
+  "fresherResponse": "Understood! As a fresher, we'll highlight your academic qualifications, skills, and projects while skipping full-time work experience.",
+  "normalEmployeeClarification": "Could you tell me a bit more about what kind of work you do day-to-day (for example: administration, sales, stock/inventory, customer support, or technical work)?",
+  "summaryGuidanceResponse": "No worries at all! A resume summary is just a short 2-3 sentence overview highlighting your background and strengths. Based on your role as {professionalTitle}, here are a few tailored options you can pick or customize:",
+  "skipAllowedResponse": "Skipped this optional step. We can always come back to it later!",
+  "skipNotAllowedResponse": "This field is required for an ATS-compliant resume so recruiters know how to evaluate or contact you. Please provide your {fieldName} to proceed.",
+  "editAcknowledgedResponse": "Understood! I've updated your {fieldName} to \"{newValue}\". Let's continue.",
+  "compoundAcknowledgedResponse": "Got it! I've saved your details ({fieldsList}).",
+  "educationAddedResponse": "Got it! Added {degree} from {institution} ({statusText}).",
+  "clarificationPrompt": "I want to make sure your resume is completely accurate. {questionPrompt}"
+}

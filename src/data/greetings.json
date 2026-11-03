@@ -1,0 +1,36 @@
+{
+  "singleWordGreetings": [
+    "hi",
+    "hii",
+    "hiii",
+    "hello",
+    "helo",
+    "helloo",
+    "hey",
+    "heyy",
+    "heyya",
+    "hola",
+    "namaste",
+    "howdy",
+    "sup",
+    "yo",
+    "greetings"
+  ],
+  "multiWordGreetings": [
+    "good morning",
+    "good afternoon",
+    "good evening",
+    "good day",
+    "how are you",
+    "how are you doing",
+    "how r u",
+    "what's up",
+    "whats up",
+    "nice to meet you"
+  ],
+  "responses": {
+    "initial": "Hello! Welcome to ResumeCraft. I'll help you build your professional resume. Let's start with your name. What should I call you?",
+    "inConversation": "Hello! Great to connect with you. Let's continue building your resume.",
+    "howAreYou": "I'm doing great, thank you for asking! I'm ready to help you craft your professional resume. Let's keep going!"
+  }
+}

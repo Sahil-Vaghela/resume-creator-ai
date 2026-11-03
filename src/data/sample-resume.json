@@ -1,0 +1,121 @@
+{
+  "personal": {
+    "fullName": "Alex Morgan",
+    "professionalTitle": "Senior Full Stack Software Engineer",
+    "email": "alex.morgan@devmail.io",
+    "phone": "+1 (555) 432-8901",
+    "location": "San Francisco, CA (Open to Remote)",
+    "linkedin": "linkedin.com/in/alexmorgan-dev",
+    "github": "github.com/alexm-eng",
+    "portfolio": "alexmorgan.tech"
+  },
+  "career": {
+    "experienceLevel": "senior",
+    "summary": "Results-oriented Senior Full Stack Engineer with 6+ years of experience designing, building, and scaling resilient web applications and microservices. Expert in TypeScript, React, Node.js, and cloud native architectures. Proven record of mentoring engineering teams, cutting infrastructure latency by 35%, and driving user growth from seed to Series B."
+  },
+  "education": [
+    {
+      "id": "edu-1",
+      "degree": "B.S. in Computer Science & Engineering",
+      "institution": "University of California, Berkeley",
+      "university": "UC Berkeley",
+      "startYear": "2015",
+      "endYear": "2019",
+      "currentlyStudying": false,
+      "grade": "3.85 / 4.0 GPA (Honors)"
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "jobTitle": "Lead Full Stack Engineer",
+      "company": "Nexus Systems Inc.",
+      "employmentType": "Full-time",
+      "location": "San Francisco, CA",
+      "startDate": "2022-03",
+      "endDate": "",
+      "currentlyWorking": true,
+      "responsibilities": "Architected and spearheaded the migration of a monolithic web platform to a micro-frontend React/Next.js architecture with Node.js and GraphQL services.\nOptimized high-traffic PostgreSQL queries and Redis caching, cutting P99 API response times by 42% for 200,000+ daily active users.\nLed a sprint team of 6 engineers, standardizing TypeScript practices, CI/CD GitHub Actions, and automated Cypress test suites."
+    },
+    {
+      "id": "exp-2",
+      "jobTitle": "Software Engineer II",
+      "company": "Vanguard Cloud Technologies",
+      "employmentType": "Full-time",
+      "location": "San Jose, CA",
+      "startDate": "2019-07",
+      "endDate": "2022-02",
+      "currentlyWorking": false,
+      "responsibilities": "Developed mission-critical cloud management dashboard components in React, TypeScript, and Tailwind CSS.\nEngineered event-driven asynchronous microservices using Express, Kafka, and Docker, handling 1.5M daily events with 99.98% uptime.\nCollaborated with product managers to deliver 14 high-priority client features ahead of schedule."
+    }
+  ],
+  "skills": {
+    "programmingLanguages": ["TypeScript", "JavaScript", "Python", "Go", "SQL"],
+    "frontend": ["React.js", "Next.js", "Tailwind CSS", "Redux Toolkit", "HTML5/CSS3", "Vite"],
+    "backend": ["Node.js", "Express.js", "RESTful APIs", "GraphQL", "Microservices", "WebSockets"],
+    "databases": ["PostgreSQL", "Redis", "MongoDB", "Firebase Firestore", "Prisma ORM"],
+    "frameworks": ["Jest", "Cypress", "React Native"],
+    "tools": ["Docker", "Kubernetes", "AWS (S3, ECS, Lambda)", "Git / GitHub", "Linux", "CI/CD"],
+    "other": ["Agile / Scrum", "System Design", "TDD", "Mentorship", "Technical Writing"]
+  },
+  "projects": [
+    {
+      "id": "proj-1",
+      "name": "CloudPulse - Distributed Metrics Monitor",
+      "description": "Real-time infrastructure observability platform capable of streaming server telemetry metrics with interactive charts and alert triggers.",
+      "technologies": "TypeScript, React, Node.js, WebSockets, TimescaleDB, Tailwind CSS",
+      "url": "https://github.com/alexm-eng/cloudpulse",
+      "contributions": "Built responsive dashboard with sub-50ms websocket streaming and dynamic threshold alerting."
+    },
+    {
+      "id": "proj-2",
+      "name": "SyntaxFlow - Collaborative Markdown Editor",
+      "description": "Multiplayer real-time document workspace with operational transformation, code highlighting, and instant PDF compilation.",
+      "technologies": "Next.js, Node.js, WebRTC, Tailwind CSS, Docker",
+      "url": "https://syntaxflow.app",
+      "contributions": "Engineered conflict-free offline synchronization and fast client-side markdown parsing."
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "name": "AWS Certified Solutions Architect - Associate",
+      "organization": "Amazon Web Services (AWS)",
+      "issueDate": "2023-06",
+      "url": "https://aws.amazon.com/verification/294021"
+    },
+    {
+      "id": "cert-2",
+      "name": "CKAD: Certified Kubernetes Application Developer",
+      "organization": "Cloud Native Computing Foundation (CNCF)",
+      "issueDate": "2024-01",
+      "url": "https://www.cncf.io/certification/ckad"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach-1",
+      "title": "1st Place Winner - CalHacks Global Hackathon",
+      "description": "Out of 350+ international teams, designed and demoed an AI-powered code analysis tool within 36 hours.",
+      "year": "2019"
+    },
+    {
+      "id": "ach-2",
+      "title": "Engineering Excellence Award - Nexus Systems",
+      "description": "Awarded for exceptional leadership during the 2023 infrastructure overhaul.",
+      "year": "2023"
+    }
+  ],
+  "languages": [
+    "English (Native / Fluent)",
+    "Spanish (Conversational)",
+    "German (Basic)"
+  ],
+  "interests": [
+    "Open Source Tooling",
+    "Distributed Systems",
+    "Marathon Running",
+    "Chess"
+  ],
+  "template": "modern"
+}

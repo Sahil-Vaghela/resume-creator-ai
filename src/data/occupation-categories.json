@@ -1,0 +1,418 @@
+{
+  "categories": [
+    {
+      "id": "stock_inventory",
+      "canonicalTitle": "Stock Department Worker",
+      "synonyms": [
+        "stock department",
+        "stock department assistant",
+        "stock department worker",
+        "stock worker",
+        "stock clerk",
+        "stock keeper",
+        "storekeeper",
+        "inventory clerk",
+        "inventory assistant",
+        "inventory executive",
+        "goods handler",
+        "stock handler",
+        "stock boy",
+        "stock manager",
+        "stock controller"
+      ],
+      "industry": "Stock / Inventory / Logistics",
+      "occupationDescription": "Works in the company's stock department managing inventory and goods",
+      "defaultSkills": [
+        "Inventory Management",
+        "Stock Checking",
+        "Goods Receiving",
+        "Record Maintenance",
+        "Warehouse Operations",
+        "Barcode Scanning",
+        "Stock Auditing",
+        "Discrepancy Reporting"
+      ],
+      "sampleResponsibilities": [
+        "Managed daily stock entries and verified incoming shipments against invoices",
+        "Performed routine inventory audits to maintain 99% stock count accuracy",
+        "Organized warehouse storage racks for rapid retrieval and dispatch",
+        "Documented damaged or missing stock and reported discrepancies to management"
+      ],
+      "summaryTemplates": [
+        "Detail-oriented and dedicated Stock Department Worker with hands-on experience in inventory tracking, stock verification, and goods receiving. Skilled in maintaining organized storage, handling dispatch operations, and optimizing warehouse logistics.",
+        "Reliable Stock & Inventory Assistant skilled in routine stock counts, invoice verification, and fast goods movement in fast-paced retail and warehouse environments."
+      ]
+    },
+    {
+      "id": "warehouse",
+      "canonicalTitle": "Warehouse Worker",
+      "synonyms": [
+        "warehouse worker",
+        "warehouse associate",
+        "warehouse assistant",
+        "warehouse staff",
+        "warehouse helper",
+        "warehouse operative",
+        "distribution associate"
+      ],
+      "industry": "Supply Chain & Warehousing",
+      "occupationDescription": "Handles material movement, order picking, packing and dispatch in warehouse facilities",
+      "defaultSkills": [
+        "Forklift Operation",
+        "Order Fulfillment",
+        "Safety Compliance",
+        "Shipping & Receiving",
+        "Quality Inspection",
+        "Loading & Unloading",
+        "Pallet Stacking"
+      ],
+      "sampleResponsibilities": [
+        "Loaded and unloaded delivery shipments safely adhering to warehouse OSHA guidelines",
+        "Picked, packed, and labeled customer orders with zero packaging errors",
+        "Operated hand trucks, pallet jacks, and material handling equipment efficiently"
+      ],
+      "summaryTemplates": [
+        "Dependable Warehouse Worker with a solid track record in physical inventory handling, order picking, loading/unloading, and logistics safety standards.",
+        "Motivated Warehouse Associate experienced in fast-paced distribution centers, freight handling, and maintaining accurate shipping manifests."
+      ]
+    },
+    {
+      "id": "teacher",
+      "canonicalTitle": "Teacher / Educator",
+      "synonyms": [
+        "teacher",
+        "educator",
+        "school teacher",
+        "lecturer",
+        "tutor",
+        "instructor",
+        "faculty member",
+        "primary teacher",
+        "high school teacher"
+      ],
+      "industry": "Education & Teaching",
+      "occupationDescription": "Teaches students, plans curriculum, and conducts assessments",
+      "defaultSkills": [
+        "Classroom Management",
+        "Lesson Planning",
+        "Student Assessment",
+        "Academic Coordination",
+        "Curriculum Development",
+        "Parent Communication",
+        "Interactive Teaching",
+        "Educational Technology"
+      ],
+      "sampleResponsibilities": [
+        "Delivered interactive lessons to classes of 30+ students fostering active participation",
+        "Designed and graded term assignments, exams, and standardized academic evaluations",
+        "Conducted regular parent-teacher conferences to discuss student progress and behavior"
+      ],
+      "summaryTemplates": [
+        "Passionate and dedicated Educator committed to fostering an inclusive, engaging learning environment. Experienced in tailored lesson planning, student assessment, and collaborative academic initiatives.",
+        "Resourceful Teacher with expertise in modern classroom management, student mentoring, and differentiated instruction to accommodate varied learning styles."
+      ]
+    },
+    {
+      "id": "accountant",
+      "canonicalTitle": "Accountant",
+      "synonyms": [
+        "accountant",
+        "accounts executive",
+        "bookkeeper",
+        "accounting assistant",
+        "chartered accountant",
+        "accounts clerk",
+        "junior accountant",
+        "senior accountant",
+        "tax consultant"
+      ],
+      "industry": "Accounting & Finance",
+      "occupationDescription": "Prepares financial statements, maintains general ledger, audits records and manages taxes",
+      "defaultSkills": [
+        "Financial Reporting",
+        "Tax Filing",
+        "Budgeting",
+        "Bookkeeping",
+        "Tally ERP / Prime",
+        "Advanced MS Excel",
+        "Accounts Payable / Receivable",
+        "Bank Reconciliation",
+        "GST & Taxation"
+      ],
+      "sampleResponsibilities": [
+        "Prepared monthly balance sheets, income statements, and cash flow reports",
+        "Managed accounts payable and receivable reconciliations with 100% compliance",
+        "Processed quarterly tax returns, GST filings, and coordinated annual audits"
+      ],
+      "summaryTemplates": [
+        "Meticulous Accountant with strong proficiency in financial reporting, general ledger reconciliation, and tax compliance. Adept at using Tally and advanced Excel to streamline audits.",
+        "Results-oriented Accounting Professional with proven capability in managing multi-entity accounts, budget tracking, and vendor reconciliations."
+      ]
+    },
+    {
+      "id": "sales_executive",
+      "canonicalTitle": "Sales Executive",
+      "synonyms": [
+        "sales executive",
+        "sales representative",
+        "sales associate",
+        "field sales",
+        "bde",
+        "business development executive",
+        "sales agent",
+        "account executive"
+      ],
+      "industry": "Sales & Business Development",
+      "occupationDescription": "Drives product sales, generates qualified leads, and closes customer contracts",
+      "defaultSkills": [
+        "Client Acquisition",
+        "Contract Negotiation",
+        "CRM Management",
+        "Lead Generation",
+        "Customer Relations",
+        "Cold Calling",
+        "Sales Pitching",
+        "Market Research"
+      ],
+      "sampleResponsibilities": [
+        "Generated qualified B2B/B2C leads through outbound outreach and client referrals",
+        "Conducted compelling product presentations and negotiated commercial terms",
+        "Consistently met or exceeded quarterly revenue quotas by over 15%"
+      ],
+      "summaryTemplates": [
+        "Target-driven Sales Executive with proven experience in lead generation, client presentations, and deal closing across diverse market segments.",
+        "Dynamic Business Development Specialist skilled in relationship building, pipeline management, and driving high-converting sales conversations."
+      ]
+    },
+    {
+      "id": "office_assistant",
+      "canonicalTitle": "Office Assistant",
+      "synonyms": [
+        "office assistant",
+        "office clerk",
+        "admin assistant",
+        "administrative clerk",
+        "front office assistant",
+        "administrative assistant",
+        "office coordinator",
+        "peon",
+        "office helper",
+        "data entry clerk"
+      ],
+      "industry": "Office Administration",
+      "occupationDescription": "Assists with daily clerical tasks, paperwork, filing, scheduling, and office operations",
+      "defaultSkills": [
+        "Document Archiving",
+        "Scheduling & Calendar",
+        "Office Correspondence",
+        "Office Administration",
+        "Data Entry",
+        "MS Word & Excel",
+        "Call Handling",
+        "Visitor Management"
+      ],
+      "sampleResponsibilities": [
+        "Organized and filed company correspondence, invoices, and legal records",
+        "Greeted office visitors, answered multi-line telephone inquiries, and directed messages",
+        "Maintained office supply inventories and coordinated facility maintenance requests"
+      ],
+      "summaryTemplates": [
+        "Organized and proactive Office Assistant with extensive experience in administrative support, clerical task execution, document filing, and scheduling.",
+        "Detail-focused Administrative Assistant adept in calendar management, correspondence drafting, and maintaining orderly workplace records."
+      ]
+    },
+    {
+      "id": "shopkeeper_retail",
+      "canonicalTitle": "Shopkeeper / Retail Associate",
+      "synonyms": [
+        "shopkeeper",
+        "retail associate",
+        "store clerk",
+        "shop assistant",
+        "cashier",
+        "counter salesperson",
+        "retail salesperson",
+        "store associate"
+      ],
+      "industry": "Retail & Commerce",
+      "occupationDescription": "Assists retail customers, processes payments, and manages shop floor display",
+      "defaultSkills": [
+        "Customer Service",
+        "Cash Handling & POS",
+        "Store Merchandising",
+        "Stock Replenishment",
+        "Inventory Audits",
+        "Billing & Invoicing"
+      ],
+      "sampleResponsibilities": [
+        "Assisted in-store customers with product inquiries and recommendations",
+        "Processed cash and card transactions accurately via point-of-sale registers",
+        "Restocked sales shelves and maintained clean visual merchandising displays"
+      ],
+      "summaryTemplates": [
+        "Customer-friendly Retail Associate with a proven track record in counter sales, stock restocking, and accurate cash drawer reconciliation."
+      ]
+    },
+    {
+      "id": "business_owner",
+      "canonicalTitle": "Business Owner / Entrepreneur",
+      "synonyms": [
+        "business owner",
+        "entrepreneur",
+        "proprietor",
+        "founder",
+        "shop owner",
+        "self employed",
+        "trader"
+      ],
+      "industry": "Business & Management",
+      "occupationDescription": "Oversees business operations, financial performance, vendor management, and growth",
+      "defaultSkills": [
+        "Business Operations",
+        "Financial Management",
+        "Team Leadership",
+        "Vendor Sourcing",
+        "Client Servicing",
+        "Strategic Planning",
+        "Budgeting"
+      ],
+      "sampleResponsibilities": [
+        "Established and managed all operational, marketing, and financial aspects of the enterprise",
+        "Negotiated contracts with suppliers, distributors, and logistics partners",
+        "Built long-term customer relationships and expanded revenue channels"
+      ],
+      "summaryTemplates": [
+        "Entrepreneurial Business Owner with comprehensive expertise in operational leadership, vendor negotiations, financial stewardship, and customer growth."
+      ]
+    },
+    {
+      "id": "software_developer",
+      "canonicalTitle": "Software Developer",
+      "synonyms": [
+        "software developer",
+        "software engineer",
+        "programmer",
+        "coder",
+        "web developer",
+        "developer",
+        "full stack developer",
+        "backend developer",
+        "frontend developer"
+      ],
+      "industry": "Information Technology",
+      "occupationDescription": "Designs, develops, tests, and maintains software applications",
+      "defaultSkills": [
+        "JavaScript",
+        "Python",
+        "React",
+        "Node.js",
+        "Database Management",
+        "Git & GitHub",
+        "REST APIs",
+        "Problem Solving"
+      ],
+      "sampleResponsibilities": [
+        "Built responsive web applications and REST APIs using modern component frameworks",
+        "Optimized database queries and backend microservices for higher throughput",
+        "Collaborated in agile sprint cycles and conducted code reviews"
+      ],
+      "summaryTemplates": [
+        "Results-oriented Software Developer with solid hands-on experience in modern web technologies, clean architecture, and reliable API development.",
+        "Versatile Software Engineer passionate about writing maintainable code, solving complex architectural challenges, and building high-performance systems."
+      ]
+    },
+    {
+      "id": "data_analyst",
+      "canonicalTitle": "Data Analyst",
+      "synonyms": [
+        "data analyst",
+        "business analyst",
+        "data specialist",
+        "analytics executive"
+      ],
+      "industry": "Data Analytics & IT",
+      "occupationDescription": "Analyzes datasets to uncover business trends and builds visualization dashboards",
+      "defaultSkills": [
+        "SQL",
+        "Python",
+        "Power BI",
+        "Tableau",
+        "Advanced Excel",
+        "Data Visualization",
+        "Statistical Analysis"
+      ],
+      "sampleResponsibilities": [
+        "Extracted and cleaned large datasets using SQL and automated ETL scripts",
+        "Developed executive dashboards in Power BI to track key company performance metrics",
+        "Presented actionable data insights to stakeholders to drive revenue decisions"
+      ],
+      "summaryTemplates": [
+        "Analytical Data Analyst skilled in transforming complex numerical data into clear, visual dashboards and strategic business insights."
+      ]
+    },
+    {
+      "id": "technician",
+      "canonicalTitle": "Technician",
+      "synonyms": [
+        "technician",
+        "electrician",
+        "maintenance technician",
+        "it technician",
+        "hardware technician",
+        "service technician",
+        "mechanic"
+      ],
+      "industry": "Technical & Maintenance Services",
+      "occupationDescription": "Installs, inspects, diagnoses, and repairs hardware equipment and machinery",
+      "defaultSkills": [
+        "Equipment Troubleshooting",
+        "Preventive Maintenance",
+        "System Diagnostics",
+        "Wiring & Assembly",
+        "Safety Protocols",
+        "Tool Operation"
+      ],
+      "sampleResponsibilities": [
+        "Inspected and serviced mechanical/electrical systems following safety checklists",
+        "Diagnosed technical faults rapidly and replaced defective parts",
+        "Documented repair logs and maintained equipment operation manuals"
+      ],
+      "summaryTemplates": [
+        "Skilled and safety-conscious Technician with extensive experience in diagnostics, troubleshooting, and preventive machinery maintenance."
+      ]
+    },
+    {
+      "id": "student_fresher",
+      "canonicalTitle": "Student / Fresher",
+      "synonyms": [
+        "fresher",
+        "student",
+        "college student",
+        "graduate",
+        "recent graduate",
+        "intern",
+        "entry level"
+      ],
+      "industry": "Fresh Graduate / Entry Level",
+      "occupationDescription": "Recent graduate or student preparing to enter the professional workforce",
+      "defaultSkills": [
+        "Quick Learner",
+        "Problem Solving",
+        "Written & Verbal Communication",
+        "Time Management",
+        "Team Collaboration",
+        "Computer Literacy",
+        "Research & Analysis"
+      ],
+      "sampleResponsibilities": [
+        "Completed rigorous academic coursework and practical lab projects with distinction",
+        "Collaborated with peers on team presentations and research assignments",
+        "Actively participated in extracurricular clubs, workshops, and skill-building bootcamps"
+      ],
+      "summaryTemplates": [
+        "Energetic and eager-to-learn fresher with strong foundational education and dedication to professional excellence. Looking to contribute enthusiasm and fresh ideas in an entry-level position.",
+        "Recent graduate with excellent organizational and communication skills, seeking to leverage academic knowledge in a dynamic workplace."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "titles": [
+    "Student",
+    "Fresher",
+    "Software Developer",
+    "Teacher",
+    "Accountant",
+    "Sales Executive",
+    "Office Assistant",
+    "Warehouse Worker",
+    "Stock Department Worker",
+    "Business Owner",
+    "Data Analyst",
+    "Technician",
+    "Customer Support Specialist"
+  ],
+  "experienceLevels": [
+    { "value": "fresher", "label": "Student / Fresher", "desc": "0-1 years of experience or entering the workforce" },
+    { "value": "junior", "label": "Early Career / Junior", "desc": "1-3 years of hands-on workplace experience" },
+    { "value": "mid", "label": "Mid-Level Professional", "desc": "3-5 years of proven professional experience" },
+    { "value": "senior", "label": "Senior / Lead / Specialist", "desc": "5+ years leading projects or operations" }
+  ],
+  "summaryTemplates": [
+    {
+      "category": "Fresher / Entry Level",
+      "level": "fresher",
+      "text": "Motivated and enthusiastic fresher with strong academic foundation, quick learning aptitude, and dedication to workplace excellence. Eager to contribute energy and positive attitude to a collaborative team."
+    },
+    {
+      "category": "Stock & Inventory Worker",
+      "level": "experienced",
+      "text": "Detail-oriented and dedicated Stock Department Worker with hands-on experience in inventory tracking, stock verification, and goods receiving. Skilled in maintaining organized storage, handling dispatch operations, and optimizing warehouse logistics."
+    },
+    {
+      "category": "Warehouse Associate",
+      "level": "experienced",
+      "text": "Dependable Warehouse Worker with a solid track record in physical inventory handling, order picking, loading/unloading, and logistics safety standards."
+    },
+    {
+      "category": "Teacher / Educator",
+      "level": "experienced",
+      "text": "Passionate and dedicated Educator committed to fostering an inclusive, engaging learning environment. Experienced in tailored lesson planning, student assessment, and collaborative academic initiatives."
+    },
+    {
+      "category": "Accountant",
+      "level": "experienced",
+      "text": "Meticulous Accountant with strong proficiency in financial reporting, general ledger reconciliation, and tax compliance. Adept at using Tally and advanced Excel to streamline audits."
+    },
+    {
+      "category": "Sales Executive",
+      "level": "experienced",
+      "text": "Target-driven Sales Executive with proven experience in lead generation, client presentations, and deal closing across diverse market segments."
+    },
+    {
+      "category": "Office Assistant",
+      "level": "experienced",
+      "text": "Organized and proactive Office Assistant with extensive experience in administrative support, clerical task execution, document filing, and scheduling."
+    },
+    {
+      "category": "Software Developer",
+      "level": "experienced",
+      "text": "Results-driven Software Engineer with proven experience designing and scaling web applications, RESTful microservices, and modern frontend architectures."
+    }
+  ],
+  "degrees": [
+    "Bachelor of Computer Applications (BCA)",
+    "Bachelor of Technology (B.Tech)",
+    "Bachelor of Commerce (B.Com)",
+    "Bachelor of Science (B.Sc)",
+    "Bachelor of Arts (B.A)",
+    "Master of Business Administration (MBA)",
+    "Master of Computer Applications (MCA)",
+    "Diploma in Engineering / Vocational Studies",
+    "High School Diploma (12th Grade)"
+  ],
+  "employmentTypes": [
+    "Full-time",
+    "Part-time",
+    "Contract",
+    "Internship",
+    "Freelance"
+  ],
+  "responsibilitiesSuggestions": [
+    "Handled incoming stock deliveries, performed physical counts, and updated inventory logs accurately.",
+    "Organized storage racks, monitored stock levels, and coordinated goods receiving with delivery drivers.",
+    "Assisted customers with product inquiries, processed invoices, and ensured prompt order fulfillment.",
+    "Prepared monthly financial reconciliations, tracked department expenses, and maintained ledger balance.",
+    "Designed and conducted interactive lessons, administered assessments, and mentored students."
+  ],
+  "projectContributions": [
+    "Coordinated and completed operational project milestones on schedule with high quality.",
+    "Streamlined manual documentation into organized digital records reducing retrieval time.",
+    "Collaborated cross-functionally with team members to resolve operational bottlenecks."
+  ],
+  "languagesList": [
+    "English (Fluent / Professional)",
+    "Hindi (Native / Fluent)",
+    "Spanish (Conversational)",
+    "French (Basic)",
+    "German (Intermediate)",
+    "Arabic (Basic)"
+  ],
+  "interestsList": [
+    "Reading & Continuous Learning",
+    "Community Volunteering",
+    "Sports & Fitness",
+    "Photography & Design",
+    "Technology & Gadgets",
+    "Music & Arts"
+  ]
+}

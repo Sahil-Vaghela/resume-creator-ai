@@ -1,0 +1,274 @@
+{
+  "startQuestionId": "full_name",
+  "steps": [
+    {
+      "questionId": "full_name",
+      "defaultNext": "professional_title"
+    },
+    {
+      "questionId": "professional_title",
+      "defaultNext": "email"
+    },
+    {
+      "questionId": "email",
+      "defaultNext": "phone"
+    },
+    {
+      "questionId": "phone",
+      "defaultNext": "location"
+    },
+    {
+      "questionId": "location",
+      "defaultNext": "linkedin"
+    },
+    {
+      "questionId": "linkedin",
+      "defaultNext": "github"
+    },
+    {
+      "questionId": "github",
+      "defaultNext": "portfolio"
+    },
+    {
+      "questionId": "portfolio",
+      "defaultNext": "experience_level"
+    },
+    {
+      "questionId": "experience_level",
+      "defaultNext": "summary"
+    },
+    {
+      "questionId": "summary",
+      "defaultNext": "edu_degree"
+    },
+    {
+      "questionId": "edu_degree",
+      "defaultNext": "edu_institution"
+    },
+    {
+      "questionId": "edu_institution",
+      "defaultNext": "edu_start_year"
+    },
+    {
+      "questionId": "edu_start_year",
+      "defaultNext": "edu_status"
+    },
+    {
+      "questionId": "edu_status",
+      "conditions": [
+        {
+          "answerEquals": "current",
+          "next": "edu_grade"
+        }
+      ],
+      "defaultNext": "edu_end_year"
+    },
+    {
+      "questionId": "edu_end_year",
+      "defaultNext": "edu_grade"
+    },
+    {
+      "questionId": "edu_grade",
+      "defaultNext": "edu_repeat_ask"
+    },
+    {
+      "questionId": "edu_repeat_ask",
+      "conditions": [
+        {
+          "answerEquals": "yes",
+          "next": "edu_degree"
+        }
+      ],
+      "defaultNext": "exp_check"
+    },
+    {
+      "questionId": "exp_check",
+      "conditions": [
+        {
+          "answerEquals": "no",
+          "next": "skills_selection"
+        }
+      ],
+      "defaultNext": "exp_title"
+    },
+    {
+      "questionId": "exp_title",
+      "defaultNext": "exp_company"
+    },
+    {
+      "questionId": "exp_company",
+      "defaultNext": "exp_type"
+    },
+    {
+      "questionId": "exp_type",
+      "defaultNext": "exp_location"
+    },
+    {
+      "questionId": "exp_location",
+      "defaultNext": "exp_current"
+    },
+    {
+      "questionId": "exp_current",
+      "conditions": [
+        {
+          "answerEquals": "yes",
+          "next": "exp_responsibilities"
+        }
+      ],
+      "defaultNext": "exp_start_date"
+    },
+    {
+      "questionId": "exp_start_date",
+      "conditions": [
+        {
+          "contextCheck": "currentlyWorking",
+          "next": "exp_responsibilities"
+        }
+      ],
+      "defaultNext": "exp_end_date"
+    },
+    {
+      "questionId": "exp_end_date",
+      "defaultNext": "exp_responsibilities"
+    },
+    {
+      "questionId": "exp_responsibilities",
+      "defaultNext": "exp_repeat_ask"
+    },
+    {
+      "questionId": "exp_repeat_ask",
+      "conditions": [
+        {
+          "answerEquals": "yes",
+          "next": "exp_title"
+        }
+      ],
+      "defaultNext": "skills_selection"
+    },
+    {
+      "questionId": "skills_selection",
+      "defaultNext": "proj_check"
+    },
+    {
+      "questionId": "proj_check",
+      "conditions": [
+        {
+          "answerEquals": "no",
+          "next": "cert_check"
+        }
+      ],
+      "defaultNext": "proj_name"
+    },
+    {
+      "questionId": "proj_name",
+      "defaultNext": "proj_desc"
+    },
+    {
+      "questionId": "proj_desc",
+      "defaultNext": "proj_tech"
+    },
+    {
+      "questionId": "proj_tech",
+      "defaultNext": "proj_url"
+    },
+    {
+      "questionId": "proj_url",
+      "defaultNext": "proj_contributions"
+    },
+    {
+      "questionId": "proj_contributions",
+      "defaultNext": "proj_repeat_ask"
+    },
+    {
+      "questionId": "proj_repeat_ask",
+      "conditions": [
+        {
+          "answerEquals": "yes",
+          "next": "proj_name"
+        }
+      ],
+      "defaultNext": "cert_check"
+    },
+    {
+      "questionId": "cert_check",
+      "conditions": [
+        {
+          "answerEquals": "no",
+          "next": "achieve_check"
+        }
+      ],
+      "defaultNext": "cert_name"
+    },
+    {
+      "questionId": "cert_name",
+      "defaultNext": "cert_org"
+    },
+    {
+      "questionId": "cert_org",
+      "defaultNext": "cert_date"
+    },
+    {
+      "questionId": "cert_date",
+      "defaultNext": "cert_url"
+    },
+    {
+      "questionId": "cert_url",
+      "defaultNext": "cert_repeat_ask"
+    },
+    {
+      "questionId": "cert_repeat_ask",
+      "conditions": [
+        {
+          "answerEquals": "yes",
+          "next": "cert_name"
+        }
+      ],
+      "defaultNext": "achieve_check"
+    },
+    {
+      "questionId": "achieve_check",
+      "conditions": [
+        {
+          "answerEquals": "no",
+          "next": "languages_input"
+        }
+      ],
+      "defaultNext": "achieve_title"
+    },
+    {
+      "questionId": "achieve_title",
+      "defaultNext": "achieve_desc"
+    },
+    {
+      "questionId": "achieve_desc",
+      "defaultNext": "achieve_year"
+    },
+    {
+      "questionId": "achieve_year",
+      "defaultNext": "achieve_repeat_ask"
+    },
+    {
+      "questionId": "achieve_repeat_ask",
+      "conditions": [
+        {
+          "answerEquals": "yes",
+          "next": "achieve_title"
+        }
+      ],
+      "defaultNext": "languages_input"
+    },
+    {
+      "questionId": "languages_input",
+      "defaultNext": "interests_input"
+    },
+    {
+      "interests_input": "review_complete",
+      "questionId": "interests_input",
+      "defaultNext": "review_complete"
+    },
+    {
+      "questionId": "review_complete",
+      "defaultNext": "DONE"
+    }
+  ]
+}

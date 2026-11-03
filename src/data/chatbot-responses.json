@@ -1,0 +1,35 @@
+{
+  "greetings": [
+    "Hello! Welcome to ResumeCraft. I'll help you build your professional resume. Let's start with your name. What should I call you?",
+    "Let's build a clean, ATS-optimized resume together step-by-step.",
+    "You can answer questions naturally in your own words, choose from suggestions, or skip optional questions whenever you want."
+  ],
+  "sectionTransitions": {
+    "personal": "Let's begin with your contact details so recruiters know who you are and how to reach you.",
+    "career": "Excellent. Now let's craft a compelling professional summary that highlights your strengths.",
+    "education": "Great job! Let's document your academic credentials and degrees.",
+    "experience": "Moving on to your career history and accomplishments.",
+    "skills": "Now let's highlight your key skills and strengths.",
+    "projects": "Showcasing projects proves your hands-on ability. Let's add your proudest work.",
+    "certifications": "Credentials and specialized certifications validate your expertise.",
+    "achievements": "Any honors, awards, or recognition worth celebrating?",
+    "additional": "Almost done! Let's round out your profile with languages and interests.",
+    "review": "Fantastic work! Your resume is fully compiled. Let's review it and pick the perfect layout."
+  },
+  "encouragements": [
+    "Looks great!",
+    "Got it!",
+    "Perfect, noted.",
+    "Wonderful!",
+    "Added to your resume.",
+    "Excellent choice."
+  ],
+  "skipAcknowledged": "Skipped this optional step. We can always come back to it later!",
+  "skipNotAllowed": "This field is required for your resume so recruiters can identify and reach you. Please provide your answer.",
+  "editAcknowledged": "I've updated that in your resume. Let's continue!",
+  "recordAdded": "Record saved successfully. Would you like to add another or move forward?",
+  "recordDeleted": "Record removed from your resume.",
+  "allDone": "Congratulations! Your resume is ready. You can switch templates, make inline tweaks, and export to PDF.",
+  "fresherNote": "Understood! As a fresher, we'll focus on your education, skills, and projects while skipping full-time work experience.",
+  "guidanceTip": "No worries! Here is some guidance to help you."
+}

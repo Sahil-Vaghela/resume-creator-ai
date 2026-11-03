@@ -1,0 +1,93 @@
+[
+  {
+    "id": "personal",
+    "name": "Personal Info",
+    "title": "Contact & Personal Information",
+    "icon": "User",
+    "required": true,
+    "description": "Your name, title, contact information and online profiles.",
+    "firstQuestion": "full_name"
+  },
+  {
+    "id": "career",
+    "name": "Summary",
+    "title": "Professional Summary & Objective",
+    "icon": "FileText",
+    "required": true,
+    "description": "Experience level, career objective, and concise professional pitch.",
+    "firstQuestion": "experience_level"
+  },
+  {
+    "id": "education",
+    "name": "Education",
+    "title": "Educational Background",
+    "icon": "GraduationCap",
+    "required": true,
+    "description": "Degrees, institutions, dates, and academic performance.",
+    "firstQuestion": "edu_degree"
+  },
+  {
+    "id": "experience",
+    "name": "Experience",
+    "title": "Work Experience",
+    "icon": "Briefcase",
+    "required": false,
+    "conditional": "experienceLevel !== 'fresher'",
+    "description": "Past roles, companies, key achievements, and responsibilities.",
+    "firstQuestion": "exp_check"
+  },
+  {
+    "id": "skills",
+    "name": "Skills",
+    "title": "Technical & Professional Skills",
+    "icon": "Wrench",
+    "required": true,
+    "description": "Categorized programming languages, frameworks, databases, and tools.",
+    "firstQuestion": "skills_selection"
+  },
+  {
+    "id": "projects",
+    "name": "Projects",
+    "title": "Key Projects & Portfolios",
+    "icon": "FolderGit2",
+    "required": false,
+    "description": "Featured software projects, repositories, live links, and highlights.",
+    "firstQuestion": "proj_check"
+  },
+  {
+    "id": "certifications",
+    "name": "Certifications",
+    "title": "Certificates & Licenses",
+    "icon": "Award",
+    "required": false,
+    "description": "Professional certifications, issuing bodies, and verification links.",
+    "firstQuestion": "cert_check"
+  },
+  {
+    "id": "achievements",
+    "name": "Achievements",
+    "title": "Honors & Achievements",
+    "icon": "Trophy",
+    "required": false,
+    "description": "Awards, hackathon wins, scholarships, and special recognitions.",
+    "firstQuestion": "achieve_check"
+  },
+  {
+    "id": "additional",
+    "name": "Additional",
+    "title": "Languages & Interests",
+    "icon": "Languages",
+    "required": false,
+    "description": "Spoken languages, personal interests, hobbies, or community work.",
+    "firstQuestion": "languages_input"
+  },
+  {
+    "id": "review",
+    "name": "Review & Export",
+    "title": "Final Review & Template Selection",
+    "icon": "CheckCircle2",
+    "required": true,
+    "description": "Inspect your complete resume, pick an ATS template, and download.",
+    "firstQuestion": "review_complete"
+  }
+]

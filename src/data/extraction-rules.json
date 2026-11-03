@@ -1,0 +1,122 @@
+{
+  "nameExtraction": {
+    "patterns": [
+      "(?:actually|no|wait),?\\s*(?:my\\s+name\\s+is|it(?:'s|\\s+is))\\s+([A-Za-z]+(?:\\s+[A-Za-z]+){0,3})(?:,?\\s*not\\s+[A-Za-z]+)?",
+      "(?:actually|no),?\\s*my\\s+name\\s+is\\s+([A-Za-z]+(?:\\s+[A-Za-z]+){0,3})",
+      "(?:my\\s+name\\s+is|name's|this\\s+is|i\\s+am|i'm|call\\s+me)\\s+([A-Za-z]+(?:\\s+[A-Za-z]+){0,3})",
+      "^([A-Z][a-z]+(?:\\s+[A-Z][a-z]+){1,3})$",
+      "^([a-zA-Z]{2,25})$"
+    ],
+    "negationPatterns": [
+      "(?:not|instead\\s+of)\\s+([A-Za-z]+)"
+    ],
+    "stopWords": [
+      "hi",
+      "hii",
+      "hello",
+      "hey",
+      "skip",
+      "none",
+      "developer",
+      "engineer",
+      "worker",
+      "yes",
+      "no",
+      "fresher",
+      "student",
+      "idk",
+      "test"
+    ]
+  },
+  "occupationExtraction": {
+    "negationPattern": "(?:i\\s+am\\s+not|not)\\s+(?:a|an)?\\s*([a-zA-Z\\s/]+?)(?:[.,;]|\\s+but|\\s+i\\s+am|\\s+i'm|\\s+i\\s+work)\\s*(?:i\\s+am|i'm|i\\s+work\\s+as|i\\s+work\\s+in|just\\s+a|a|an)?\\s*([a-zA-Z\\s/]+)",
+    "patterns": [
+      "(?:i\\s+work\\s+in\\s+the|i\\s+work\\s+in|working\\s+in\\s+the|working\\s+in)\\s+([a-zA-Z\\s/]+?)(?:\\s+department|\\s+team|\\s+division|\\s+sector|[.,;]|$)",
+      "(?:i\\s+work\\s+as\\s+(?:a|an)?|i\\s+am\\s+(?:a|an)?|i'm\\s+(?:a|an)?|working\\s+as\\s+(?:a|an)?|my\\s+job\\s+is\\s+(?:a|an)?)\\s*([a-zA-Z\\s/]+?)(?:[.,;]|\\s+for|\\s+at|\\s+in|$)",
+      "(?:job\\s+title|role|profession|designation)\\s*(?:is|:)?\\s*([a-zA-Z\\s/]+?)(?:[.,;]|$)"
+    ],
+    "fresherKeywords": [
+      "fresher",
+      "fresh graduate",
+      "recent graduate",
+      "no experience",
+      "never worked",
+      "haven't worked",
+      "student",
+      "college student",
+      "zero experience"
+    ],
+    "vagueKeywords": [
+      "normal employee",
+      "just a normal employee",
+      "simple employee",
+      "regular employee",
+      "company employee",
+      "normal worker",
+      "regular worker",
+      "just a worker",
+      "simple worker",
+      "staff member"
+    ]
+  },
+  "educationExtraction": {
+    "degreePatterns": [
+      "\\b(Bachelor\\s+of\\s+Computer\\s+Applications|BCA|Master\\s+of\\s+Computer\\s+Applications|MCA|B\\.?Tech|M\\.?Tech|B\\.?Sc|M\\.?Sc|B\\.?Com|M\\.?Com|B\\.?A|M\\.?A|MBA|BBA|Ph\\.?D|Diploma|High\\s+School|12th|10th)\\b"
+    ],
+    "institutionPatterns": [
+      "(?:from|at)\\s+([A-Za-z0-9&.\\s]+?\\s+(?:University|College|Institute|School|Academy|Campus|Polytechnic))",
+      "([A-Za-z0-9&.\\s]+?\\s+(?:University|College|Institute|School|Academy))"
+    ],
+    "yearPatterns": [
+      "(?:in|year|graduated\\s+in|batch\\s+of|completed\\s+in)?\\s*\\b(20\\d{2}|19\\d{2})\\b"
+    ],
+    "completedKeywords": [
+      "completed",
+      "graduated",
+      "finished",
+      "passed",
+      "passed out",
+      "alumni"
+    ],
+    "currentKeywords": [
+      "currently studying",
+      "pursuing",
+      "enrolled",
+      "studying",
+      "in progress",
+      "final year",
+      "first year"
+    ]
+  },
+  "contactExtraction": {
+    "emailPattern": "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}",
+    "phonePattern": "(?:\\+?\\d{1,4}[\\s-]?)?(?:\\(?\\d{2,4}\\)?[\\s-]?)?\\d{3,5}[\\s-]?\\d{4,5}",
+    "locationPattern": "(?:in|at|live\\s+in|based\\s+in|from)\\s+([A-Za-z\\s]+(?:,\\s*[A-Za-z\\s]+)?)"
+  },
+  "summaryUncertaintyPatterns": [
+    "don'?t\\s+know\\s+what\\s+to\\s+write",
+    "not\\s+sure\\s+what\\s+to\\s+write",
+    "no\\s+idea\\s+what\\s+to\\s+write",
+    "help\\s+me\\s+write",
+    "what\\s+should\\s+i\\s+write",
+    "suggest\\s+a\\s+summary",
+    "write\\s+it\\s+for\\s+me",
+    "i\\s+don't\\s+know"
+  ],
+  "skipPatterns": [
+    "^skip$",
+    "^skip\\s+this$",
+    "^skip\\s+this\\s+question$",
+    "^skip\\s+question$",
+    "^leave\\s+it$",
+    "^pass$",
+    "^next$"
+  ],
+  "editPatterns": [
+    "^actually\\b",
+    "^change\\s+my\\b",
+    "^update\\s+my\\b",
+    "^correction\\b",
+    "\\bnot\\s+([A-Za-z]+),?\\s*(?:it'?s|my\\s+name\\s+is)\\s+([A-Za-z]+)"
+  ]
+}

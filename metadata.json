@@ -1,0 +1,6 @@
+{
+  "name": "ResumeCraft - Smart Resume Builder Chatbot",
+  "description": "Interactive, JSON-driven resume builder chatbot that guides you step-by-step to create professional, ATS-friendly resumes with live preview and PDF export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

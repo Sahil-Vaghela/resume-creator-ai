@@ -1,0 +1,62 @@
+[
+  {
+    "id": "modern",
+    "name": "Modern",
+    "tagline": "Clean, contemporary design with subtle accent colors & crisp structure",
+    "recommendedFor": "Software Engineers, Product Designers & Tech Roles",
+    "accentColor": "#2563eb",
+    "fontFamily": "font-sans",
+    "badge": "Popular",
+    "features": ["Sidebar or 2-column skills", "Highlighted headers", "Subtle border dividers", "High ATS score"]
+  },
+  {
+    "id": "minimal",
+    "name": "Minimal",
+    "tagline": "Swiss-style clarity with generous whitespace and elegant typography",
+    "recommendedFor": "All Professions, Designers, Executives",
+    "accentColor": "#18181b",
+    "fontFamily": "font-sans",
+    "badge": "ATS Favorite",
+    "features": ["Monochrome palette", "Zero clutter", "High readability", "Maximum ATS parser speed"]
+  },
+  {
+    "id": "professional",
+    "name": "Professional",
+    "tagline": "Authoritative corporate layout with refined serif headings",
+    "recommendedFor": "Finance, Consulting, Management & Senior Roles",
+    "accentColor": "#0f766e",
+    "fontFamily": "font-serif",
+    "badge": "Corporate",
+    "features": ["Merriweather serif headers", "Formal layout", "Detailed section margins", "Time-tested corporate format"]
+  },
+  {
+    "id": "classic",
+    "name": "Classic",
+    "tagline": "Timeless single-column Harvard format with clean horizontal rules",
+    "recommendedFor": "Law, Academia, Banking & Standard ATS Submissions",
+    "accentColor": "#334155",
+    "fontFamily": "font-serif",
+    "badge": "Standard",
+    "features": ["Single column flow", "Underlined section titles", "Uniform margins", "Universally accepted"]
+  },
+  {
+    "id": "developer",
+    "name": "Developer",
+    "tagline": "Code-centric aesthetic with monospace details & project badges",
+    "recommendedFor": "Full Stack, DevOps, Backend & Open Source Builders",
+    "accentColor": "#0284c7",
+    "fontFamily": "font-mono",
+    "badge": "Tech Special",
+    "features": ["Monospace metadata", "Repository & live links", "Categorized skill matrix", "Project-first flow"]
+  },
+  {
+    "id": "fresher",
+    "name": "Fresher",
+    "tagline": "Education & project-first hierarchy tailored for graduates & students",
+    "recommendedFor": "Students, Freshers, Interns & Career Changers",
+    "accentColor": "#4f46e5",
+    "fontFamily": "font-sans",
+    "badge": "Entry Level",
+    "features": ["Education prioritized", "Academic projects focus", "Key coursework showcase", "Extracurriculars & clubs"]
+  }
+]

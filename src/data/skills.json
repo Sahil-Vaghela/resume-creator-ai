@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "id": "programmingLanguages",
+      "name": "Programming Languages",
+      "skills": [
+        "JavaScript", "TypeScript", "Python", "Java", "C++", "C#", "Go", "Rust", "PHP", "Ruby", "Swift", "Kotlin", "SQL", "Dart"
+      ]
+    },
+    {
+      "id": "frontend",
+      "name": "Frontend Development",
+      "skills": [
+        "React.js", "Next.js", "Vue.js", "HTML5", "CSS3", "Tailwind CSS", "Redux Toolkit", "TypeScript", "Vite", "Angular", "Sass", "Responsive Design", "Accessibility (a11y)", "Web Performance"
+      ]
+    },
+    {
+      "id": "backend",
+      "name": "Backend Development",
+      "skills": [
+        "Node.js", "Express.js", "Python (Django/FastAPI)", "Java Spring Boot", "RESTful APIs", "GraphQL", "Microservices", "Serverless", "WebSockets", "NestJS", "gRPC"
+      ]
+    },
+    {
+      "id": "databases",
+      "name": "Databases & Storage",
+      "skills": [
+        "PostgreSQL", "MongoDB", "MySQL", "Redis", "SQLite", "Firebase Firestore", "Supabase", "DynamoDB", "Elasticsearch", "Prisma ORM"
+      ]
+    },
+    {
+      "id": "frameworks",
+      "name": "Frameworks & Libraries",
+      "skills": [
+        "React Native", "Flutter", "Tailwind CSS", "Bootstrap", "Jest", "Cypress", "PyTorch", "TensorFlow", "Pandas", "Scikit-Learn"
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "Developer Tools & DevOps",
+      "skills": [
+        "Git", "GitHub", "Docker", "Kubernetes", "AWS", "Google Cloud (GCP)", "CI/CD Pipelines", "Linux / Bash", "Webpack", "Postman", "Vercel", "Figma"
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Soft Skills & Methodologies",
+      "skills": [
+        "Agile / Scrum", "System Design", "Problem Solving", "Cross-Functional Collaboration", "Code Review", "Technical Documentation", "Mentorship", "Test-Driven Development (TDD)"
+      ]
+    }
+  ]
+}
